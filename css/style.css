@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(#2e2e84, #7a0bc0);
+}
+
+.container h1 {
+  color: white;
+  font-weight: 900;
+  font-weight: bolder;
+  font-size: 4rem;
+  position: relative;
+  font-family: "Dancing Script", cursive;
+}
+.container h1::after {
+  content: "";
+  width: 22%;
+  bottom: 30%;
+  right: 0%;
+  left: 39%;
+  z-index: -1;
+  height: 1.5rem;
+  background-color: #fa58b6;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.container h1:hover::after {
+  height: 2.5rem;
+}
+
+.container h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-family: "Ysabeau SC", sans-serif;
+}
+.container .title i {
+  color: #fa58b6;
+}
+
+.container .form-group label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.container .btn {
+  background-color: #e742a2;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 10rem;
+}
+.container .btn:hover {
+  background-color: #b62e7d;
+  color: white;
+}
+
+.container .table .t-head th {
+  font-size: 1.5rem;
+  color: #2e2e84;
+}
+#tBody {
+  font-size: 1.5rem;
+  color: #212159;
+  font-weight: 600;
+}
+
+.input-btn {
+  background-color: #e742a2;
+  color: white;
+  font-size: 1rem;
+  height: 2.4rem;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  width: 7rem;
+}
+.input-btn-del {
+  background-color: #212159;
+  color: white;
+  font-size: 1rem;
+  height: 2.4rem;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  width: 7rem;
+}
+
+.alert {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#lightbox {
+  background-color: white;
+  height: 22rem;
+  width: 58rem;
+  border-radius: 10px;
+}
+#lightbox .content i {
+  color: #b62e7d;
+}
+#lightbox .content h3 {
+  font-weight: 700;
+  color: #212159;
+}
+#lightbox .content h4 {
+  font-weight: 700;
+}
+#close-btn {
+  cursor: pointer;
+}
